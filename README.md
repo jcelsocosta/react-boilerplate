@@ -156,14 +156,6 @@ Primary.args = {
 
 ### Vite
 
-- Install Vite:
-
-  ```bash
-  npm install vite --save-dev
-  # or
-  yarn add vite --dev
-  ```
-
 - Basic Vite configuration in `vite.config.js`:
 
   ```javascript
@@ -184,5 +176,5 @@ Primary.args = {
 Run tests with:
 
 ```bash
-npx cypress run
+npm run cypress:open
 ```
